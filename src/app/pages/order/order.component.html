@@ -1,0 +1,8 @@
+<app-crud
+  [columns]="['orderID', 'date', 'client']"
+  [displayColumns]="['orderID', 'date', 'client', 'actions']"
+  [apiEndpoint]="'http://localhost:8080/api/orders'"
+  model="order"
+
+  >
+</app-crud>

@@ -1,0 +1,10 @@
+<!-- form.component.html -->
+
+
+<app-crud
+  [columns]="['id', 'firstName', 'lastName']"
+  [displayColumns]="['id', 'firstName', 'lastName', 'actions']"
+  [apiEndpoint]="'http://localhost:8080/api/clients'"
+  model="client"
+>
+</app-crud>
